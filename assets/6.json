@@ -1,0 +1,40 @@
+{
+    "name": "Froggy",
+    "symbol": "",
+    "description": "SOLHunt Launch Froggy Celebratory NFT",
+    "seller_fee_basis_points": 250,
+    "image": "image.png",
+    "attributes": [
+      {
+        "trait_type": "eyes",
+        "value": "reptile"
+      },
+      {
+        "trait_type": "hands",
+        "value": "fins"
+     },
+     {
+        "trait_type": "weapon",
+        "value": "Spear"
+      }
+    ],
+    "collection": {
+       "name": "SOLHunt collection",
+       "family": "NFT"
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "5u1zLNXq7PZgJVjKt6vS6NzBAv7RWC24LMNQD9t9NfUw",
+          "share": 100
+        }
+      ]
+    }
+  }
