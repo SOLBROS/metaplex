@@ -1,1 +1,12 @@
 pubkey: 5u1zLNXq7PZgJVjKt6vS6NzBAv7RWC24LMNQD9t9NfUw
+Diw9qv9s3a8ZY5jUyqe8Zf3CdBTpQjMqevxQcSpAkqBG
+
+initialized config for a candy machine with publickey: EvsLK6eXRJ6QN1WCFpuJjW8HQwr2vtkQ8VrCzLj1CDAT
+
+{"program":{"uuid":"EvsLK6","config":"EvsLK6eXRJ6QN1WCFpuJjW8HQwr2vtkQ8VrCzLj1CDAT"},"items":{"0":{"link":"https://arweave.net/erCH-6T7zsjbTFTjT-bsWZ0zxgGCNwFTgDlm23qbx_4","name":"Ghost NFT","onChain":true},"1":{"link":"https://arweave.net/fmuImmMYIZ9NzjCcHk6BE_BZzQEAhnWYoVwL3xcRPQo","name":"Kinght","onChain":true},"2":{"link":"https://arweave.net/V68ql6TCsPjRFQHNgP1WEhgUslYF9vSmBLA-qAn5Z8c","name":"Demon","onChain":true},"3":{"link":"https://arweave.net/yqffsl9bAjdxl9wRi0LL1sobcYSZHfybRs33r_NFWDU","name":"Reaper","onChain":true},"4":{"link":"https://arweave.net/p-kGVrLk3KQz-HMlm12asXw9zh-ctHKyx4Hueo2Npqs","name":"Wizard","onChain":true},"5":{"link":"https://arweave.net/MGXeMZUdGU533UseWwSgzMm3bO4tTPGL31EMhkhNRNw","name":"Elf","onChain":true},"6":{"link":"https://arweave.net/lzlUJbUoNIeHO9bAeyI4_X1JEJ4vQQkOTQWSatzZYpA","name":"Froggy","onChain":true},"7":{"link":"https://arweave.net/0BZMKrT1fVAmsZKZQkNIdbkCBL-uOtIaQFx2xAbuYuU","name":"Hemin","onChain":true},"8":{"link":"https://arweave.net/MG7b9ExaWyiJ5HESC_j3T3anOJ39tfpKTOm4TCl1zpM","name":"Hyena","onChain":true},"9":{"link":"https://arweave.net/ue0o5znqGJrKFYo1IdvqVGqNCL3hz7MBFqw5w4eXJj8","name":"Undead","onChain":true},"10":{"link":"https://arweave.net/mnSGCM2uQSLMnK3ByZ1rCWfccXGgeMLUCvlS7BWqRCE","name":"Icy Yeti","onChain":true}},"env":"devnet","cacheName":"temp","authority":"Diw9qv9s3a8ZY5jUyqe8Zf3CdBTpQjMqevxQcSpAkqBG"}
+
+eliojordanlopes@Elios-MacBook-Pro metaplex % ts-node js/packages/cli/src/candy-machine-cli.ts update_candy_machine --keypair ~/.config/solana/devnet.json --price 1 --date '14 Oct 2021 00:00:00 IST'
+wallet public key: Diw9qv9s3a8ZY5jUyqe8Zf3CdBTpQjMqevxQcSpAkqBG
+ - updated startDate timestamp: NaN (14 Oct 2021 00:00:00 IST)
+ - updated price: 1000000000 lamports (1 SOL)
+update_candy_machine finished 4kikCvnDxqg8GUj7WfBFHuP3cKE9CW5HG2NhQCq5tbesdYwxwjF5BaEPhhu99bRn93BY2wRYuRDDFGcZRzK2Xpd2
