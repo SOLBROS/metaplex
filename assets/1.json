@@ -1,0 +1,40 @@
+{
+    "name": "Kinght",
+    "symbol": "",
+    "description": "SOLHunt Launch Knight Celebratory NFT",
+    "seller_fee_basis_points": 250,
+    "image": "image.png",
+    "attributes": [
+      {
+        "trait_type": "eyes",
+        "value": "hidden"
+      },
+      {
+        "trait_type": "hands",
+        "value": "metal"
+     },
+     {
+        "trait_type": "weapon",
+        "value": "Sword"
+      }
+    ],
+    "collection": {
+       "name": "SOLHunt collection",
+       "family": "NFT"
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "5u1zLNXq7PZgJVjKt6vS6NzBAv7RWC24LMNQD9t9NfUw",
+          "share": 100
+        }
+      ]
+    }
+  }
